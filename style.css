@@ -154,8 +154,15 @@ article P {
     }
 
     .flexbox {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
+    .box-2 {
+        display: none;
+    }
+    
     header {
         background: url(https://scopesecurity.com/wp-content/uploads/2022/02/ippsec_20220215_header.png) no-repeat bottom center, 
         url(https://images.wallpaperscraft.com/image/single/matrix_code_numbers_147523_1920x1080.jpg);
